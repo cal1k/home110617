@@ -1,0 +1,97 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+#showcase {
+    background-image: url(images/forest.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.me{
+    color: #40def9;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 58px;
+    line-height: 1.7;
+}
+
+.wfonts{
+    color: #ffffff;
+    font-size: 180%;
+}
+
+#pollen{
+	background: none;
+    font-family: Androgyne;
+	background-image: url('images/snow1.png'), url('images/snow2.png'), url('images/snow3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: pollen 11s linear infinite;
+	-moz-animation: pollen 11s linear infinite;
+	-ms-animation: pollen 11s linear infinite;
+    animation: pollen 11s linear infinite;
+    animation-duration: 14s;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.67);
+    color: y
+}
+   
+}
+@keyframes pollen {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes pollen {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes pollen {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes pollen {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+
+
+
